@@ -55,6 +55,14 @@ SECTIONS
                 *(.rodata*)     /* Read-only data */
                 KEEP (*(.config))
                 . = ALIGN(4);
+        } >rom
+
+        /* ARM exception unwinding section */
+        .ARM.exidx : {
+                __exidx_start = .;
+                *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                __exidx_end = .;
+                . = ALIGN(4);
                 _etext = .;
         } >rom
 
