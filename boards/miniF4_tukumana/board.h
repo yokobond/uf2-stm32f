@@ -38,9 +38,9 @@ const uint32_t configData[] = {
 ///////////////////////////////////
     43, 0x19, // PIN_DISPLAY_RST = PB09
     44, 0x18, // PIN_DISPLAY_BL = PB08
-    47, 0x17, // PIN_BTN_LEFT = PB07
+    47, 0x16, // PIN_BTN_LEFT = PB06
     48, 0x14, // PIN_BTN_RIGHT = PB04
-    49, 0x16, // PIN_BTN_UP = PB06
+    49, 0x17, // PIN_BTN_UP = PB07
     50, 0x15, // PIN_BTN_DOWN = PB05
     51, 0x0, // PIN_BTN_MENU = PA00
     60, 0x1d, // PIN_JACK_TX = PB13
